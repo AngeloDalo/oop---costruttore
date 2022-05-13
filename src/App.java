@@ -4,5 +4,8 @@ public class App {
         Persona persona2 = new Persona("ciro", "neri", 33, "verder");
         System.out.println(persona1.cognome);
         System.out.println(persona2.cognome);
+        persona1.saluta();
+        persona1.addizione(5, 2);
+        persona1.qwerty(3);
     }
 }

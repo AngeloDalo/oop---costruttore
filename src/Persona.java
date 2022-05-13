@@ -22,4 +22,17 @@ public class Persona {
         this.eta = eta;
         this.colore = colore;
     }
+
+    void saluta(){
+        int prova = 5; //dentro al metodo, non funziona fuori
+        System.out.println(prova);
+    }
+
+    void addizione(int a, int b){
+        int risultato = a + b;
+        this.qwerty(risultato);
+    }
+    void qwerty(int prova){
+        System.out.println(prova);
+    }
 }
