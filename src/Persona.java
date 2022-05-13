@@ -35,4 +35,9 @@ public class Persona {
     void qwerty(int prova){
         System.out.println(prova);
     }
+
+    public String toString(){
+        String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colore;
+        return stringa;
+    }
 }
